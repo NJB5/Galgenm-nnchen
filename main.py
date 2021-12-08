@@ -1,9 +1,8 @@
 play = input("Möchtest du eine Runde Galgenmännchen spielen? (Ja/Nein)").upper()
-while play == "JA":   
-    with open ("galgenmaennchen.txt", "r") as text_datei:
+    while play == "JA":   
+        with open ("galgenmaennchen.txt", "r") as text_datei:
             words = text_datei.read()
             word_list = words.split("\n")
-
     from random import randint
     a = len(word_list)-1
     x = randint(0,a)
