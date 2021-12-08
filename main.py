@@ -14,7 +14,7 @@ while play == "JA":
     striche = lWord * "_ " #Ausgabe der Striche anhand der Anzahl der Buchstaben im ausgewählten Wort
     stricheTwo =lWord *"_"
     print(striche)
-    print(solution)
+    
 
     #Variablen
     right = []
